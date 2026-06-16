@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Book a Plumber | YourNearBest Plumbing Services</title>
+  <meta name="description" content="Book a plumbing service online or call us for 24/7 emergency plumbing. Fast response, upfront pricing, certified plumbers ready now." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .gform-wrap {
+      background: linear-gradient(135deg, var(--blue-light) 0%, var(--white) 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .gform-wrap .form-header {
+      padding: 2rem 2rem 1.5rem;
+      border-bottom: 2px solid var(--blue-light);
+    }
+    .gform-wrap .form-header h2 {
+      margin-bottom: 0.5rem;
+      color: var(--blue);
+    }
+    .gform-iframe-container {
+      position: relative;
+      width: 100%;
+      /* 1947px is the native Google Form height — keep as padding-top ratio */
+      padding-top: 0;
+    }
+    .gform-iframe-container iframe {
+      display: block;
+      width: 100%;
+      height: 1947px;
+      border: 0;
+    }
+    /* On narrow screens shrink proportionally */
+    @media (max-width: 640px) {
+      .gform-iframe-container iframe {
+        height: 2200px; /* a little extra room on small viewports */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">YourNearBest<span>Plumbing</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html" class="nav-cta active">Book Now</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="section-eyebrow">Get In Touch</p>
+      <h1>Book a Service<br><em>or Call Now</em></h1>
+      <p>We'll confirm your appointment within 30 minutes. Emergency? Call directly for immediate response.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section contact-section">
+    <div class="container contact-inner">
+
+      <!-- ── LEFT: Contact info + map — unchanged ── -->
+      <div class="contact-info">
+        <h2>Reach Us Directly</h2>
+
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <strong>Phone (24/7 Emergency)</strong>
+            <a href="tel:+919902139101">9902139101</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <strong>Email</strong>
+            <a href="mailto:yournearbestplumbingservices@gmail.com">yournearbestplumbingservices@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <strong>Office Address</strong>
+            <span>Sarjapur Road, Sarjapur Police Station</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">🕐</div>
+          <div>
+            <strong>Office Hours</strong>
+            <span>Monday–Friday: 8am–6pm<br>Saturday: 9am–4pm<br>Emergency Line: 24/7</span>
+          </div>
+        </div>
+
+        <div class="contact-map">
+          <<iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d1944.8650801097115!2d77.7828234!3d12.8606973!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDUxJzM3LjEiTiA3N8KwNDYnNTguMSJF!5e0!3m2!1sen!2sin!4v1780507099151!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="contact-trust">
+          <div class="trust-item"><span class="trust-check">✓</span><span>Experienced &amp; Trusted Team</span></div>
+          <div class="trust-item"><span class="trust-check">✓</span><span>Quality Work Guaranteed</span></div>
+          <div class="trust-item"><span class="trust-check">✓</span><span>Customer Satisfaction Focused</span></div>
+          <div class="trust-item"><span class="trust-check">✓</span><span>No Hidden Fees</span></div>
+          <div class="trust-item"><span class="trust-check">✓</span><span>60-Min Emergency Response</span></div>
+        </div>
+      </div>
+
+      <!-- ── RIGHT: Google Form embed ── -->
+      <div class="gform-wrap">
+        
+        <div class="gform-iframe-container">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdnHTlLUapki2caHg8PIg7g34K6C5bsvFPi_vDmRgVK00_pXA/viewform?embedded=true"
+            width="100%"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            title="Book a Plumbing Service">
+            Loading…
+          </iframe>
+        </div>
+      </div>
+
+    </div><!-- /.contact-inner -->
+  </section>
+
+  <!-- EMERGENCY STRIP -->
+  <div class="emergency-strip">
+    <strong>🚨 Plumbing Emergency?</strong>
+    <span>Don't wait — call us right now for immediate dispatch.</span>
+    <a href="tel:+919902139101">9902139101</a>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo">YourNearBest<span>Plumbing</span></a>
+        <p>Professional plumbing services you can trust and always available.</p>
+        <a href="tel:+919902139101" class="footer-phone">📞 9902139101</a>
+      </div>
+      <div class="footer-links">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#drain">Drain Cleaning</a></li>
+          <li><a href="services.html#leak">Leak Repair</a></li>
+          <li><a href="services.html#pipe">Pipe Installation</a></li>
+          <li><a href="services.html#water-heater">Water Heaters</a></li>
+          <li><a href="services.html#emergency">Emergency Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>Sarjapur Road<br>Sarjapur Police Station</p>
+        <p><a href="tel:+919902139101">9902139101</a></p>
+        <p><a href="mailto:yournearbestplumbingservices@gmail.com">yournearbestplumbingservices@gmail.com</a></p>
+        <p>Mon–Sun: 24/7 Emergency<br>Office: 8am–6pm</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 YourNearBest Plumbing Services. All rights reserved. | Keywords: plumber near me · emergency plumbing · pipe repair service · drain cleaning · water heater repair</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
