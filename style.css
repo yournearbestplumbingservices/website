@@ -377,6 +377,11 @@ p  { color: var(--muted); line-height: 1.75; }
 .testimonial-author strong { display: block; font-size: 0.87rem; color: var(--text); }
 .testimonial-author span   { font-size: 0.75rem; color: var(--muted); }
 
+.service-areas span {
+  background: var(--blue-light);
+  color: var(--blue-mid);
+  border-radius: 100px;
+}
 /* ── CTA BANNER ── */
 .cta-banner {
   background: var(--blue);
